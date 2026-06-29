@@ -1,2 +1,8 @@
 # Datasets / ground-truth labels (pulled from Box, not committed)
 data/
+
+# Per-child analysis outputs — keep clinical data OUT of this public repo
+# (canonical analysis scripts live in the private AI4EE-hub under eval/)
+AutoRsr-NoBert/*_preds.csv
+AutoRsr-NoBert/downstream_*.csv
+**/__pycache__/
